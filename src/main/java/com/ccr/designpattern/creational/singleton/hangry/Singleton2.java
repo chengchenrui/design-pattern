@@ -1,9 +1,7 @@
-package com.ccr.designpattern.singleton.hangry;
+package com.ccr.designpattern.creational.singleton.hangry;
 
 /**
  * 饿汉模式变种
- * @author chengchenrui
- * @version Id: Singleton2.java, v 0.1 2018/8/19 10:50 chengchenrui Exp $$
  */
 public class Singleton2 {
 
@@ -25,6 +23,7 @@ public class Singleton2 {
 
     /**
      * 对外提供获取实例的静态方法
+     *
      * @return
      */
     public static Singleton2 getInstance() {
