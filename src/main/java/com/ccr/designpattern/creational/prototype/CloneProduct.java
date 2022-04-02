@@ -1,5 +1,8 @@
 package com.ccr.designpattern.creational.prototype;
 
+/**
+ * JDK 自带克隆方法
+ */
 public class CloneProduct implements Cloneable {
 
     private String name;
